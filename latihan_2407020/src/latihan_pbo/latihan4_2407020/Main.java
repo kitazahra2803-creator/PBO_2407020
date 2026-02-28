@@ -1,9 +1,10 @@
 package latihan_pbo.latihan4_2407020;
 
 public class Main {
+
     public static void main(String[] args) {
 
-        persegi p = new persegi();
+        Persegi p = new Persegi();
         p.setSisi(4);
 
         System.out.println("PERSEGI");

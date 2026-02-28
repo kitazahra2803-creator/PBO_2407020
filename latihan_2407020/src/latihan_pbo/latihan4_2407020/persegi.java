@@ -1,6 +1,6 @@
 package latihan_pbo.latihan4_2407020;
 
-public class persegi {
+public class Persegi {
                      protected double sisi;   // menggunakan protected
 
     // Setter
