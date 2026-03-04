@@ -4,7 +4,7 @@ public class Coba1 {
 
     private double sisi;
     private double panjang;
-    protected double lebar;
+    private double lebar;
 
     // Constructor
     public Coba1() {
