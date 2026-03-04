@@ -1,14 +1,18 @@
 package latihan_pbo.latihan3_2407020;
 
-public class coba1 {
+public class Coba1 {
 
-    protected double panjang;
+    private double sisi;
+    private double panjang;
     protected double lebar;
 
     // Constructor
-    public coba1(double panjang, double lebar) {
-        this.panjang = panjang;
-        this.lebar = lebar;
+    public Coba1() {
+    } 
+
+    // Setter
+    public void setSisi(double sisi) {
+        this.sisi = sisi;
     }
 
     // Setter
@@ -21,6 +25,11 @@ public class coba1 {
     }
 
     // Getter
+    public double getSisi() {
+        return sisi;
+    }
+
+    // Getter
     public double getPanjang() {
         return panjang;
     }
@@ -29,13 +38,13 @@ public class coba1 {
         return lebar;
     }
 
-    // Method hitung keliling
-    public double hitungKeliling() {
-        return 2 * (panjang + lebar);
+    // Method hitung keliling Persegi
+    public double hitungKelilingPersegi() {
+        return 4 * sisi;
     }
 
-    // Method cetak keliling
-    public void cetakKeliling() {
-        System.out.println("Kelilingnya adalah : " + hitungKeliling());
+    // Method hitung keliling Persegi panjang
+    public double hitungKelilingPersegiPanjang() {
+        return 2 * (panjang + lebar);
     }
 }

@@ -22,7 +22,7 @@ public class Persegi {
         return sisi * sisi;
     }
 
-    // Hitung keliling
+    // Hitung kelilingS
     public double hitungKeliling() {
         return 4 * sisi;
     }
