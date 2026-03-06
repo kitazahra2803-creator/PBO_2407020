@@ -1,4 +1,4 @@
-package latihan4_2407020;
+package tugas1_pbo;
 
 public class PersegiPanjang extends BangunDatar {
                     public double LuasPersegiPanjang() {

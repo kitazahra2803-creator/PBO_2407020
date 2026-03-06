@@ -1,27 +1,27 @@
-package latihan_pbo.latihan4_2407020;
+package latihan4_2407020;
 
 public class Main {
 
     public static void main(String[] args) {
+        Segitiga sTiga = new Segitiga();
+        sTiga.SetAlas(5);
+        sTiga.SetTinggi(7);
+        System.out.println("Luas segitiga adalah : " + sTiga.LuasSegitiga());
 
-        Persegi p = new Persegi();
-        p.setSisi(4);
+        
+        JajarGenjang jGenjang = new JajarGenjang();
+        jGenjang.SetAlas(12);
+        jGenjang.SetTinggi(16);
+        System.out.println(" Luas jajar genjang adalah :" + jGenjang.LuasJajarGenjang());
 
-        System.out.println("PERSEGI");
-        System.out.println("Sisi      : " + p.getSisi());
-        System.out.println("Luas      : " + p.hitungLuas());
-        System.out.println("Keliling  : " + p.hitungKeliling());
+        Persegi sPersegi = new Persegi();
+        sPersegi.SetSisi(12);
+        sPersegi.SetSisi(22);
+        System.out.println(" Luas persegi adalah :" + sPersegi.LuasPersegi());
 
-        System.out.println();
-
-        PersegiPanjang pp = new PersegiPanjang();
-        pp.setPanjang(10);
-        pp.setLebar(5);
-
-        System.out.println("PERSEGI PANJANG");
-        System.out.println("Panjang   : " + pp.getPanjang());
-        System.out.println("Lebar     : " + pp.getLebar());
-        System.out.println("Luas      : " + pp.hitungLuas());
-        System.out.println("Keliling  : " + pp.hitungKeliling());
+        PersegiPanjang sPersegiPanjang = new PersegiPanjang();
+        sPersegiPanjang.SetPanjang(12);
+        sPersegiPanjang.SetLebar(22);
+        System.out.println(" Luas persegi panjang adalah :" + sPersegiPanjang.LuasPersegiPanjang());
     }
 }

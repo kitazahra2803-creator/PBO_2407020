@@ -1,4 +1,4 @@
-package latihan_pbo;
+package latihan5_2407020;
 
 public class coba {
 protected double panjang;

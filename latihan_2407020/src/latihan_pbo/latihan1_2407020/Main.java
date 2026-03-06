@@ -1,4 +1,4 @@
-package latihan_pbo.latihan1_2407020;
+package latihan1_2407020;
 
 public class Main {
 
