@@ -1,10 +1,13 @@
 package tugas2_pbo;
 
 public class Main {
+                    //object
                     public static void main(String[] args) {
-                    BangunRuang bangun = new BangunRuang(10, 5, 4);
+                    BangunRuang balok = new BangunRuang(10, 5, 4);
 
-                    System.out.println("Luas Alas   : " + bangun.hitungLuas());
-                    System.out.println("Volume      : " + bangun.hitungVolume());
+                    //output
+                    System.out.println("Luas Alas   : " + balok.hitungLuas());
+                    System.out.println("Volume dari class parent     : " + balok.hitungVolume());
+                    System.out.println("Volume dari class child : " + balok.hitungVolume());
     }
 }

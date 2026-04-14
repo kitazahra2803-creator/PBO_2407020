@@ -8,7 +8,24 @@ public class BangunRuang extends BangunDatar {
         this.tinggi = tinggi;
     }
 
+    @Override
+    public double hitungLuas(){
+        return panjang*lebar*2;
+    }
+
+    //ini dari class parent
     public double hitungVolume() {
+        return super.hitungLuas() * tinggi;
+    }
+    
+    //ini dari class child
+    public double hitungVolume2() {
         return hitungLuas() * tinggi;
-    }  
+    }
+
+    //method hitung volume
+    public void tampilkanInfoRuang() {
+        super.tampilkanhasil();
+        System.out.println("tinggi :" + tinggi);
+    }
 }

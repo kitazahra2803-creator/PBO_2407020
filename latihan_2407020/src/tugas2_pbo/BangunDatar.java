@@ -1,22 +1,20 @@
 package tugas2_pbo;
 public class BangunDatar {
-    private double panjang;
-    private double lebar;
+    protected double panjang;
+    protected double lebar;
 
+    //constructor
     public BangunDatar(double panjang, double lebar) {
         this.panjang = panjang;
         this.lebar = lebar;
     }
 
-    public double getPanjang() {
-        return panjang;
-    }
-
-    public double getLebar() {
-        return lebar;
-    }
-
     public double hitungLuas() {
-        return panjang * lebar;
+        return panjang * lebar ;
+    }
+
+    public void tampilkanhasil(){
+        System.out.println("panjang : " + panjang);
+        System.out.println("lebar : " + lebar);
     }
 }
