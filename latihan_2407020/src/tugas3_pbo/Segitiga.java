@@ -1,7 +1,7 @@
-public class Segitiga extends BangunDatar {
+class Segitiga extends BangunDatar {
 
-    public Segitiga(double alas, double tinggi) {
-        super(alas, tinggi);
+    public Segitiga(double varA, double varB) {
+        super(varA, varB);
     }
 
     @Override
@@ -12,8 +12,10 @@ public class Segitiga extends BangunDatar {
     @Override
     public void tampilkan() {
         System.out.println("Segitiga");
+        System.out.println("========================");
         System.out.println("Alas: " + varA);
         System.out.println("Tinggi: " + varB);
         System.out.println("Luas: " + hitungLuas());
+        System.out.println("========================");
     }
 }

@@ -1,20 +1,17 @@
 public class Main {
     public static void main(String[] args) {
 
-        // satu tipe variabel untuk semua objek (polymorphism)
-        BangunDatar bangun;
+        // polymorphism 
+        BangunDatar bd1 = new BangunDatar(3, 4);
+        BangunDatar bd2 = new Persegi(5);
+        BangunDatar bd3 = new PersegiPanjang(5, 3);
+        BangunDatar bd4 = new Segitiga(0, 0);
 
-        bangun = new Persegi(5.0);
-        bangun.tampilkan();
+        Persegi p1 = new Persegi(0);
 
-        System.out.println();
-
-        bangun = new PersegiPanjang(4.0, 6.0);
-        bangun.tampilkan();
-
-        System.out.println();
-
-        bangun = new Segitiga(6.0, 8.0);
-        bangun.tampilkan();
+        bd1.tampilkan();
+        bd2.tampilkan();
+        bd3.tampilkan();
+        bd4.tampilkan();
     }
 }
